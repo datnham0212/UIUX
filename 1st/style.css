@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(2, 2, 2, 0.979);
+    min-height: 400vh;
+    overflow-x: hidden;
+}
+
+.section-1, .section-4 {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 2em;
+}
+
+.section-2, .section-3 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+.left2, .right3{
+    flex: 0.7;
+}
+
+.right2, .left3{
+    flex: 0.3;
+}
+
+#box1 {
+    background-image: url('img/house1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#box2 {
+    background-image: url('img/house2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+#box3 {
+    background-image: url('img/house3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+#box4 {
+    background-image: url('img/house4.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(2, 2, 2, 0.979);
+}
