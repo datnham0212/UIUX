@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    height: 100vh;
+    background-image: url(black_and_white_image_of_snow_covered_mountains_trees_4k_hd_nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #660000b4;
+    font-size: 20em;
+}
+
+h2 {
+    color: snow;
+}
+
+body {
+    min-height: 600vh;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 2px dashed white;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section1, .section3 {
+    text-align: left;
+    justify-content: right;
+}
+
+.section2, .section4 {
+    text-align: left;
+    justify-content: left;
+}
+
+.section2 .container, .section4 .container {
+    margin-left: 2em;
+}
+
+.section4 .container {
+    width: 70%;
+}
